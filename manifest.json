@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "AccessNotes 2.0",
+    "description": "Web annotation tool that lives in your pocket",
+    "version": "2.0.0",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*"],
+        "js": ["content-script.js"]
+      }
+    ],
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "notifications",
+      "storage" 
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [],
+        "matches": ["*"]
+      }
+    ],
+    "action": {
+      "default_icon": {
+        "64": "assets/accessnotes-icon.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "AccessNotes"
+    }
+  }
+  
