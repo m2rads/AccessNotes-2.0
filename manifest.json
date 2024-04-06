@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "AccessNotes 2.0",
+    "name": "AccessNotes",
     "description": "Web annotation tool that lives in your pocket",
     "version": "2.0.0",
     "icons": {
