@@ -1,0 +1,15 @@
+{
+  "name": "accessnotes-v2.0",
+  "version": "1.0.0",
+  "description": "<div style=\"display: flex; justify-content: baseline; align-items: baseline;\">   <img src=\"https://github.com/m2rads/AccessNotes-2.0/assets/79536486/a6f2bbfe-4687-4895-b530-da4c45e5cc0a\" alt=\"icon\" width=\"30\"> </div> <h2>AccessNotes</h2>",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rangy": "^1.3.1"
+  }
+}
