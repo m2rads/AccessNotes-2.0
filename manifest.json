@@ -3,12 +3,15 @@
     "name": "AccessNotes 2.0",
     "description": "Web annotation tool that lives in your pocket",
     "version": "2.0.0",
+    "icons": {
+        "64": "assets/accessnotes-icon-64.png"
+      },
     "background": {
       "service_worker": "background.js"
     },
     "content_scripts": [
       {
-        "matches": ["*"],
+        "matches": ["<all_urls>"],
         "js": ["content-script.js"]
       }
     ],
@@ -18,15 +21,10 @@
       "notifications",
       "storage" 
     ],
-    "web_accessible_resources": [
-      {
-        "resources": [],
-        "matches": ["*"]
-      }
-    ],
     "action": {
       "default_icon": {
-        "64": "assets/accessnotes-icon.png"
+        "32": "assets/accessnotes-icon-64.png",
+        "64": "assets/accessnotes-icon-64.png"
       },
       "default_popup": "popup/popup.html",
       "default_title": "AccessNotes"
